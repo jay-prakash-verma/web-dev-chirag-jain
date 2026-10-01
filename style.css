@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	background: #fff;
+	color: #000;
+	font-family: Arial, sans-serif;
+}
+
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 16px 5%;
+	background: #000;
+	color: #fff;
+}
+
+.welcome {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	padding: 24px 5%;
+	background: #b8223;
+	border-bottom: 1px solid #000;
+}
+
+.welcome img {
+	width: 90px;
+	height: 90px;
+	object-fit: contain;
+}
+
+.welcome marquee {
+	font-size: 1.5rem;
+}
+
+.content {
+	display: flex;
+	gap: 24px;
+	padding: 24px 5%;
+}
+
+.card {
+	flex: 1;
+	padding: 16px;
+	border: 1px solid #000;
+}
+
+.card h2 {
+	margin-top: 0;
+}
+
+footer {
+	margin-top: 24px;
+	padding: 16px 5%;
+	background: #b82323;
+	color: #fff;
+}
+
+.page-nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.page-nav a {
+	color: #fff;
+}
+
+
+}
