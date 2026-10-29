@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>gmail landing page</title>
+
+    <style>
+        :root{
+            font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", "Noto Sans Khmer", arial, sans-serif;
+            font-size: 20px;
+        }
+        #main-container {
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(222, 225, 225);
+            display: flex;
+            
+            align-items: center;
+            justify-content: center;
+            
+        }
+        #sub-container{
+            height: 50%; 
+            width: 75%;
+            background-color: rgb(248, 248, 248);
+             display: flex;
+            flex-direction: column;
+            border-radius: 35px;
+        }
+
+        #form-container {
+            display: flex;
+            flex-direction: row;
+            border-radius: 35px;
+            justify-content: center;
+            align-items: center;
+            height: 80%;
+          
+        }
+       #submit-container{
+        display: flex;
+        padding:0Px 71px 25px 25px;
+       
+        justify-content: right;
+        height: 20%;
+        
+       }
+
+        #input-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+            padding: 30px 20px 20px 20px;
+        }
+        #massge-box {
+            padding: 30px 20px 20px 40px;
+        }
+        #create_account{
+            margin: 0px;
+            margin-right: 30px;
+        }
+        button{
+            background-color: rgb(92, 52, 224);
+            border-radius: 11px;
+            height: 35px;
+            width:60px;
+            color: white;
+        }
+        #Email-field{
+            margin-bottom: 20px;
+        }
+        #Email-input{
+            padding-left: 20px;
+            margin-bottom: 10px;
+            border-radius:4px;
+            height: 35px;
+            width: 90%;
+           border:  1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main-container">
+       <div id="sub-container">
+         <div  id="form-container">
+            <div style="width: 50%;" id="massge-box" height: 60%;>
+                <img src="googleg.svg" alt="gmail logo">
+                <br>
+                <h1>Sign in</h1>
+                <p>with your Google Account to continue to Gmail. This account will be available to other Google apps in
+                    the browser.</p>
+            </div>
+            <div style="width: 50%; height: 50%; " id="input-box">
+                <div id="Email-field">
+                    <input type="email" placeholder="Email or Phone" id="Email-input"><br>
+                <a href="Forget_Password">Forget Email</a>
+                </div>
+                <p>Not your computer? Use Guest mode to sign in privately. <a href="Empty.html"> Learn more about using
+                        Guest mode</a></p>
+            </div>
+        </div>
+        <div id="submit-container">
+            <a href="create account" id="create_account"> Create account</a>
+            <button>submit</button>
+        </div>
+       </div>
+    </div>
+
+</body>
+
+</html>
